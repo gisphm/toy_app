@@ -77,8 +77,6 @@ GEM
     debugger-linecache (1.2.0)
     did_you_mean (0.9.4)
       interception
-    email_validator (1.5.0)
-      activemodel
     erubis (2.7.0)
     execjs (2.2.2)
     ffi (1.9.6)
@@ -228,7 +226,6 @@ DEPENDENCIES
   capistrano-rails
   coffee-rails
   did_you_mean
-  email_validator
   guard
   guard-ctags-bundler
   jbuilder
