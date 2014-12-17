@@ -1,5 +1,4 @@
 source 'https://ruby.taobao.org'
-ruby '2.1.5'
 
 gem 'rails', '4.2.0.rc3'
 gem 'sqlite3'
@@ -10,7 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', group: :doc
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt'
 gem 'puma'
 
 group :development, :test do
@@ -25,3 +24,7 @@ group :development, :test do
   gem 'binding_of_caller'
 end
 
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
