@@ -4,24 +4,31 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
-Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:ToyApp
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
-CreateUsers	db/migrate/20141215115211_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
-ToyApp	config/application.rb	/^module ToyApp$/;"	m
+EmailValidator	app/models/user.rb	/^class EmailValidator < ActiveModel::EachValidator$/;"	c
+Micropost	app/models/micropost.rb	/^class Micropost < ActiveRecord::Base$/;"	c
+MicropostsController	app/controllers/microposts_controller.rb	/^class MicropostsController < ApplicationController$/;"	c
+MicropostsHelper	app/helpers/microposts_helper.rb	/^module MicropostsHelper$/;"	m
 User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
-UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
 UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
-UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
 UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
-change	db/migrate/20141215115211_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+create	app/controllers/microposts_controller.rb	/^  def create$/;"	f	class:MicropostsController
 create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+destroy	app/controllers/microposts_controller.rb	/^  def destroy$/;"	f	class:MicropostsController
 destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+edit	app/controllers/microposts_controller.rb	/^  def edit$/;"	f	class:MicropostsController
 edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+index	app/controllers/microposts_controller.rb	/^  def index$/;"	f	class:MicropostsController
 index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+micropost_params	app/controllers/microposts_controller.rb	/^    def micropost_params$/;"	f	class:MicropostsController
+new	app/controllers/microposts_controller.rb	/^  def new$/;"	f	class:MicropostsController
 new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+set_micropost	app/controllers/microposts_controller.rb	/^    def set_micropost$/;"	f	class:MicropostsController
 set_user	app/controllers/users_controller.rb	/^    def set_user$/;"	f	class:UsersController
+show	app/controllers/microposts_controller.rb	/^  def show$/;"	f	class:MicropostsController
 show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+update	app/controllers/microposts_controller.rb	/^  def update$/;"	f	class:MicropostsController
 update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
 user_params	app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
+validate_each	app/models/user.rb	/^  def validate_each(record, attribute, value)$/;"	f	class:EmailValidator
