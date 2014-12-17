@@ -11,6 +11,7 @@ gem 'jbuilder'
 gem 'sdoc', group: :doc
 gem 'bcrypt'
 gem 'puma'
+gem 'email_validator'
 
 group :development, :test do
   gem 'guard'
